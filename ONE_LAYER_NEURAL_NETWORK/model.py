@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import copy, time, h5py
+from HelperFunctions1 import sigmoid, layer_sizes, initialize_params, Forward_Propagation, compute_cost, Backward_Propagation, update_parameters, predict
 
 np.random.seed(2)
 
