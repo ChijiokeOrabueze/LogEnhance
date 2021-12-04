@@ -168,3 +168,9 @@ def update_parameters(parameters, grads, learning_rate):
     return up_params
 
 
+def predict(parameters,X):
+    
+    A2,cache = Forward_Propagation(X,parameters)
+    predictions = A2>0.5
+    
+    return predictions
