@@ -1,3 +1,6 @@
+import numpy as np
+import copy, time, h5py
+
 def sigmoid(z):
     
     s = 1/(1+np.exp(-z))
